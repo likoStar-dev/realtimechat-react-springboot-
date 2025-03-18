@@ -18,6 +18,7 @@ export default defineConfig({
     },
   },
   server: {
+    allowedHosts: ['realtimechat-react-springboot.onrender.com'],
     port: 9000
   },
 })
