@@ -1,0 +1,11 @@
+/* Assuming you have a CSS file for your component */
+.message-modal {
+  width: 50%; /* Default width for larger screens */
+}
+
+@media (max-width: 768px) {
+  .message-modal {
+    display: block;
+    width: 100%; /* Full width on mobile screens */
+  }
+}
